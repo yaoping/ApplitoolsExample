@@ -1,0 +1,25 @@
+{
+  "name": "applitools",
+  "version": "1.0.0",
+  "description": "Applitools Eyes SDK for protractor over selenium Javascript Webdriver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "eyes.utils": "0.0.17",
+    "eyes.sdk": "0.0.47",
+    "q": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "eyes.protractor": "0.0.57",
+    "eyes.selenium": "0.0.63",
+    "mocha": "*"
+  },
+  "engines": {
+    "node": ">=0.10.x"
+  },
+  "author": "Pingping Yao",
+  "license": "Apache-2.0"
+}
